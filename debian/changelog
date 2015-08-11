@@ -1,4 +1,4 @@
-kdepimlibs (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release.
@@ -6,6 +6,10 @@ kdepimlibs (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on default boost libraries instead of 1.55 versions. Not
+    switching prevents you from building this package for wily proposed.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:20:41 +0200
 
