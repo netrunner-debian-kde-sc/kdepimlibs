@@ -1,3 +1,62 @@
+kdepimlibs (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+
+  * KDE Frameworks 5 port
+  * Drop packages moved to own sources or were removed entirely
+    - libkmime4
+    - libkpimtextedit4
+    - libkxmlrpcclient4
+    - libgpgme++2
+    - libqgpgme1
+    - libsyndication4
+    - libkpimidentities4
+    - libkontactinterface4
+    - libkmbox4
+    - libkldap4
+    - libkimap4
+    - libkholidays4
+    - libkcalcore4
+    - libkalarmcal2
+    - libkblog4
+    - libkabc4
+    - libkcal4
+    - libkcalutils4
+    - libakonadi-calendar4
+    - libkpimutils4
+    - libkresources4
+    - libktnef4
+    - libkmailtransport4
+    - libmicroblog4
+    - libakonadi-kabc4
+    - libakonadi-kcal4
+  * The following new packages were added:
+    - libkf5akonadiagentbase5
+    - libkf5akonadicontact-dev
+    - libkf5akonadicore5
+    - libkf5akonadimime-dev
+    - libkf5akonadinotes-dev
+    - libkf5akonadisocialutils-dev
+    - libkf5akonadiwidgets5
+  * The following packages were renamed to reflect their new content:
+    - libakonadi-kde4 -> libakonadi-kf5
+    - kdepimlibs5-dev -> libkf5akonadi-dev
+    - libakonadi-contact4 -> libkf5akonadicontact5
+    - libakonadi-kmime4 -> libkf5akonadimime5
+    - libakonadi-notes4 -> libkf5akonadinotes5
+    - libakonadi-socialutils4 -> libkf5akonadisocialutils5
+    - libakonadi-xml4 -> libkf5akonadixml5
+  * Build dependencies were adjusted to a sutiable version
+  * All ACC files were removed until someone finds time to create
+    new profiles
+  * KDE 4 specific tech in debian/rules was removed along with library
+    mass-handling as the libraries are rather detangled now and eventually
+    will be split into independent sources altogether.
+  * libakondi-kf5 replaces libakonadi-kde4 as they install the same mime type
+    file
+  * libkf5akonadisocialutils5 replaces libakonadi-socialutils4 as they contain
+    overlapping data files
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 12 Aug 2015 10:19:07 +0200
+
 kdepimlibs (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]

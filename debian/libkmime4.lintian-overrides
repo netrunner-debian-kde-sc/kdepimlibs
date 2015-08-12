@@ -1,1 +1,0 @@
-libkmime4: hardening-no-fortify-functions usr/lib/libkmime.so.4.*

@@ -1,0 +1,3 @@
+usr/bin/akonadiselftest
+usr/lib/*/libKF5AkonadiCore.so.4.*
+usr/lib/*/libKF5AkonadiCore.so.5
