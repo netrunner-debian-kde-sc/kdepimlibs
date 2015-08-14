@@ -51,7 +51,8 @@ Package: libkf5akonadi-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadiagentbase5 (= ${binary:Version}),
+Depends: libboost-dev,
+         libkf5akonadiagentbase5 (= ${binary:Version}),
          libkf5akonadicore5 (= ${binary:Version}),
          libkf5akonadiserver-dev,
          libkf5akonadiwidgets5 (= ${binary:Version}),
