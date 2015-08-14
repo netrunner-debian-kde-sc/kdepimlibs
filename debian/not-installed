@@ -1,0 +1,6 @@
+# TODO: consult with upstream what to do with these they are not useful to the user
+./usr/bin/akonadi_benchmarker
+./usr/bin/akonadi_knut_resource
+./usr/lib/x86_64-linux-gnu/qt5/plugins/akonadi/akonadi_test_searchplugin.so
+./usr/share/akonadi/agents/knutresource.desktop
+./usr/share/kf5/akonadi_knut_resource/knut-template.xml
