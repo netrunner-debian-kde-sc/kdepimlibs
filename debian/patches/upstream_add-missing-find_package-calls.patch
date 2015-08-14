@@ -1,0 +1,45 @@
+From 8b83e3175aa3d628d739c9130fde9d82d6f76ec6 Mon Sep 17 00:00:00 2001
+From: Harald Sitter <sitter@kde.org>
+Date: Wed, 12 Aug 2015 09:13:39 +0200
+Subject: [PATCH] add missing find_package calls
+
+akonadi-mime and kioslaves explicitly linked targets they didn't explicitly
+find first in their scope. this blows up with cmake3 and isn't well
+separated anyway.
+
+REVIEW: 124705
+---
+ akonadi-mime/CMakeLists.txt | 4 ++++
+ kioslave/CMakeLists.txt     | 1 +
+ 2 files changed, 5 insertions(+)
+
+diff --git a/akonadi-mime/CMakeLists.txt b/akonadi-mime/CMakeLists.txt
+index 15bd333..798a475 100644
+--- a/akonadi-mime/CMakeLists.txt
++++ b/akonadi-mime/CMakeLists.txt
+@@ -28,6 +28,10 @@ ecm_setup_version(${KDEPIMLIBS_VERSION} VARIABLE_PREFIX AKONADIMIME
+ 
+ ########### Find packages ###########
+ find_package(KF5KIO ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5I18n ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5DBusAddons ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5ItemModels ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5KDELibs4Support ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5Mime ${KF5_MIME_VERSION} CONFIG REQUIRED)
+ 
+ set( SHARED_MIME_INFO_MINIMUM_VERSION "0.40" )
+diff --git a/kioslave/CMakeLists.txt b/kioslave/CMakeLists.txt
+index 22877d7..758c271 100644
+--- a/kioslave/CMakeLists.txt
++++ b/kioslave/CMakeLists.txt
+@@ -32,6 +32,7 @@ set_package_properties(Sasl2 PROPERTIES
+ )
+ 
+ find_package(KF5KIO ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5I18n ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5DocTools ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5Ldap ${LDABLIB_VERSION} CONFIG REQUIRED)
+ find_package(KF5Mbox ${MBOXLIB_VERSION} CONFIG REQUIRED)
+-- 
+2.1.4
+
