@@ -53,9 +53,18 @@ Architecture: any
 Multi-Arch: foreign
 Depends: libkf5akonadiagentbase5 (= ${binary:Version}),
          libkf5akonadicore5 (= ${binary:Version}),
+         libkf5akonadiserver-dev
+         ${misc:Depends},
          libkf5akonadiwidgets5 (= ${binary:Version}),
          libkf5akonadixml5 (= ${binary:Version}),
-         ${misc:Depends},
+         libkf5completion-dev,
+         libkf5itemmodels-dev,
+         libkf5jobwidgets-dev,
+         libkf5kdelibs4support-dev,
+         libkf5service-dev,
+         libkf5solid-dev,
+         libkf5xmlgui-dev,
+         qtbase5-dev,
          ${shlibs:Depends}
 Replaces: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4:15.07.80)
 Breaks: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4:15.07.80)
