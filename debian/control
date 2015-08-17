@@ -98,8 +98,6 @@ Package: libkf5akonadiwidgets5
 Architecture: any
 Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
-Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Description: Akonadi widgets library
  This library contains standard widgets for the Akonadi PIM data server.
  .
