@@ -1,5 +1,5 @@
-usr/lib/*/libKF5AkonadiSocialUtils.so.4.*
 usr/lib/*/libKF5AkonadiSocialUtils.so.5
+usr/lib/*/libKF5AkonadiSocialUtils.so.5.*
 usr/lib/*/qt5/plugins/akonadi_serializer_socialfeeditem.so
 usr/share/akonadi/plugins/serializer/akonadi_serializer_socialfeeditem.desktop
 usr/share/mime/packages/x-vnd.akonadi.socialfeeditem.xml
