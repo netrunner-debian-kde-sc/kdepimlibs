@@ -86,8 +86,9 @@ Description: kio slaves used by KDE PIM applications
 
 Package: libkf5akonadicore5
 Architecture: any
-Multi-Arch: no
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
  .
@@ -95,8 +96,10 @@ Description: Akonadi core library
 
 Package: libkf5akonadiwidgets5
 Architecture: any
-Multi-Arch: same
+Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
+Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Description: Akonadi widgets library
  This library contains standard widgets for the Akonadi PIM data server.
  .
@@ -123,6 +126,7 @@ Description: Akonadi contacts access library
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5akonadicontact-dev
+Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5akonadi-dev (= ${binary:Version}),
@@ -161,6 +165,7 @@ Description: Akonadi MIME handling library
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5akonadimime-dev
+Section: libdevel
 Architecture: any
 Depends: libkf5akonadi-dev (= ${binary:Version}),
          libkf5akonadimime5 (= ${binary:Version}),
@@ -186,6 +191,7 @@ Description: Akonadi resources for handling social feeds
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5akonadisocialutils-dev
+Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5akonadi-dev (= ${binary:Version}),
@@ -210,6 +216,7 @@ Description: Akonadi notes access library
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5akonadinotes-dev
+Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5akonadi-dev (= ${binary:Version}),
