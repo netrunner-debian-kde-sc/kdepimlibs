@@ -106,7 +106,7 @@ Description: Akonadi widgets library
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: kdepimlibs-data
-Architecture: data
+Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libakoandi-kf5 (<< 4:15.07.90+git20150819.1000),
