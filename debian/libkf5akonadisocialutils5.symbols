@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 arm64 armhf i386 ppc64el
 libKF5AkonadiSocialUtils.so.5 libkf5akonadisocialutils5 #MINVER#
  _ZN7Akonadi13ImageProvider11imageLoadedERK7QStringRK4QUrlRK6QImage@Base 15.07.90
  _ZN7Akonadi13ImageProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
