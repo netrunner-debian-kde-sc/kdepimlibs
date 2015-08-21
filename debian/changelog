@@ -1,3 +1,9 @@
+kdepimlibs (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 17:30:11 +0100
+
 kdepimlibs (4:15.07.90-0ubuntu2) wily; urgency=medium
 
   * Update symbols
