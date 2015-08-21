@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 arm64 ppc64el
 libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi10ControlGui11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10ControlGui11qt_metacastEPKc@Base 15.07.90
@@ -435,7 +435,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi9TagWidgetD1Ev@Base 15.07.90
  _ZN7Akonadi9TagWidgetD2Ev@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10ControlGui10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget7Private10metaObjectEv@Base 15.07.90

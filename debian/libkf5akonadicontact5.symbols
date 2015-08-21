@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 arm64 armhf i386 ppc64el
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 15.07.90
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE16defaultMapPixmap@Base 15.07.90
@@ -10,9 +10,9 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocolsC2Ev@Base 15.07.90
  _ZN11IMProtocolsD1Ev@Base 15.07.90
  _ZN11IMProtocolsD2Ev@Base 15.07.90
- _ZN11KIconEngineD0Ev@Base 15.07.90
- _ZN11KIconEngineD1Ev@Base 15.07.90
- _ZN11KIconEngineD2Ev@Base 15.07.90
+ (arch=!armhf)_ZN11KIconEngineD0Ev@Base 4:15.07.90
+ (arch=!armhf)_ZN11KIconEngineD1Ev@Base 4:15.07.90
+ (arch=!armhf)_ZN11KIconEngineD2Ev@Base 4:15.07.90
  _ZN7Akonadi11ContactPart6LookupE@Base 15.07.90
  _ZN7Akonadi11ContactPart8StandardE@Base 15.07.90
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 15.07.90
@@ -323,9 +323,9 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK11IMProtocols4iconERK7QString@Base 15.07.90
  _ZNK11IMProtocols4nameERK7QString@Base 15.07.90
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
+ (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
+ (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10rawContactEv@Base 15.07.90
@@ -403,7 +403,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN9KContacts12ContactGroupEEET_v@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN9KContacts9AddresseeEEET_v@Base 15.07.90
- _ZTI11KIconEngine@Base 15.07.90
+ (arch=!armhf)_ZTI11KIconEngine@Base 4:15.07.90
  _ZTIN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTIN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTIN7Akonadi16ContactSearchJobE@Base 15.07.90
@@ -428,7 +428,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTIN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTIN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
  _ZTIN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
- _ZTS11KIconEngine@Base 15.07.90
+ (arch=!armhf)_ZTS11KIconEngine@Base 4:15.07.90
  _ZTSN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTSN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTSN7Akonadi16ContactSearchJobE@Base 15.07.90
@@ -453,7 +453,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTSN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTSN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
  _ZTSN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
- _ZTV11KIconEngine@Base 15.07.90
+ (arch=!armhf)_ZTV11KIconEngine@Base 4:15.07.90
  _ZTVN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTVN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTVN7Akonadi16ContactSearchJobE@Base 15.07.90
