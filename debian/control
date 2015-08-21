@@ -125,7 +125,7 @@ Description: kdepimlibs - data files
 Package: libkf5akonadiagentbase5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${binary:Version}),
+Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi agent base library
@@ -137,7 +137,7 @@ Description: Akonadi agent base library
 Package: libkf5akonadicontact5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${binary:Version}),
+Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi contacts access library
@@ -167,7 +167,7 @@ Description: Akonadi contacts access library - development files
 Package: libkf5akonadimime5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${binary:Version}),
+Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi MIME handling library
@@ -202,7 +202,7 @@ Description: transitional dummy package
 Package: libkf5akonadisocialutils5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${binary:Version}),
+Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi resources for handling social feeds
@@ -256,7 +256,7 @@ Description: Akonadi notes access library - development files
 Package: libkf5akonadixml5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${binary:Version}),
+Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi XML helper library
