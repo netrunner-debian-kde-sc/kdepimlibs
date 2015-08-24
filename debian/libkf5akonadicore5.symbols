@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.07.90 amd64 arm64 armhf i386 ppc64el
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi10CollectionE@Base 15.07.90
  _Z5qHashRKN7Akonadi3TagE@Base 15.07.90
@@ -477,6 +477,9 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi14MonitorPrivate5derefEx@Base 15.07.90
  _ZN7Akonadi14MonitorPrivateC1EPNS_37ChangeNotificationDependenciesFactoryEPNS_7MonitorE@Base 15.07.90
  _ZN7Akonadi14MonitorPrivateC2EPNS_37ChangeNotificationDependenciesFactoryEPNS_7MonitorE@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivateD0Ev@Base 4:15.08.0
+ _ZN7Akonadi14MonitorPrivateD1Ev@Base 4:15.08.0
+ _ZN7Akonadi14MonitorPrivateD2Ev@Base 4:15.08.0
  _ZN7Akonadi14PluginMetaDataC1ERK7QStringS3_S3_S3_@Base 15.07.90
  _ZN7Akonadi14PluginMetaDataC1Ev@Base 15.07.90
  _ZN7Akonadi14PluginMetaDataC2ERK7QStringS3_S3_S3_@Base 15.07.90
