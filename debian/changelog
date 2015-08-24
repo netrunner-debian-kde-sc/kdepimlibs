@@ -1,6 +1,10 @@
 kdepimlibs (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ Clive Johnston ]
+  * Fixing symbols
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 17:30:11 +0100
 
