@@ -94,10 +94,22 @@ Description: Akonadi core library
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
+Package: kdepimlibs-bin
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5akonadiwidgets5 (<< 4:15.08.0+git20150827.0900)
+Replaces: libkf5akonadiwidgets5 (<< 4:15.08.0+git20150827.0900)
+Description: kdepimlibs - binary files
+ This package contains binary files for all libraries that are part of
+ kdepimlibs.
+
 Package: libkf5akonadiwidgets5
 Architecture: any
-Multi-Arch: no
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Depends: kdepimlibs-bin (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Description: Akonadi widgets library
