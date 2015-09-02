@@ -107,9 +107,8 @@ Description: kdepimlibs - binary files
 Package: libkf5akonadiwidgets5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-bin (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kdepimlibs-bin (>= ${binary:Version})
 Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Description: Akonadi widgets library
