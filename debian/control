@@ -67,8 +67,8 @@ Depends: libboost-dev,
          qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4:15.07.80)
-Breaks: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4:15.07.80)
+Replaces: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4.14.10-1ubuntu2~)
+Breaks: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4.14.10-1ubuntu2~)
 Description: development files for the KDE Development Platform PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.
