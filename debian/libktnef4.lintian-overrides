@@ -1,1 +1,0 @@
-libktnef4: hardening-no-fortify-functions usr/lib/libktnef.so.4.*

@@ -1,0 +1,6 @@
+usr/include/KF5/Akonadi/SocialUtils/
+usr/include/KF5/akonadi-socialutils_version.h
+usr/include/KF5/akonadi/socialutils/
+usr/lib/*/cmake/KF5AkonadiSocialUtils/
+usr/lib/*/libKF5AkonadiSocialUtils.so
+usr/lib/*/qt5/mkspecs/modules/qt_AkonadiSocialUtils.pri

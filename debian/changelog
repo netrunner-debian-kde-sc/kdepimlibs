@@ -4,6 +4,89 @@ kdepimlibs (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 21:25:11 +0200
 
+kdepimlibs (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Adjust breaks&replaces of libkf5akonadi-dev on kdepimlibs5-dev
+    + Latter as provided by kde4pimlibs had its runtime binaries stripped so
+      there is no longer a conflict moving forward
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 02 Sep 2015 09:16:56 +0200
+
+kdepimlibs (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Clive Johnston ]
+  * Fixing symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 17:30:11 +0100
+
+kdepimlibs (4:15.07.90-0ubuntu2) wily; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 17:26:12 +0100
+
+kdepimlibs (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * KDE Frameworks 5 port
+  * Drop packages moved to own sources or were removed entirely
+    - libkmime4
+    - libkpimtextedit4
+    - libkxmlrpcclient4
+    - libgpgme++2
+    - libqgpgme1
+    - libsyndication4
+    - libkpimidentities4
+    - libkontactinterface4
+    - libkmbox4
+    - libkldap4
+    - libkimap4
+    - libkholidays4
+    - libkcalcore4
+    - libkalarmcal2
+    - libkblog4
+    - libkabc4
+    - libkcal4
+    - libkcalutils4
+    - libakonadi-calendar4
+    - libkpimutils4
+    - libkresources4
+    - libktnef4
+    - libkmailtransport4
+    - libmicroblog4
+    - libakonadi-kabc4
+    - libakonadi-kcal4
+  * The following new packages were added:
+    - libkf5akonadiagentbase5
+    - libkf5akonadicontact-dev
+    - libkf5akonadicore5
+    - libkf5akonadimime-dev
+    - libkf5akonadinotes-dev
+    - libkf5akonadisocialutils-dev
+    - libkf5akonadiwidgets5
+  * The following packages were renamed to reflect their new content:
+    - libakonadi-kde4 -> libakonadi-kf5
+    - kdepimlibs5-dev -> libkf5akonadi-dev
+    - libakonadi-contact4 -> libkf5akonadicontact5
+    - libakonadi-kmime4 -> libkf5akonadimime5
+    - libakonadi-notes4 -> libkf5akonadinotes5
+    - libakonadi-socialutils4 -> libkf5akonadisocialutils5
+    - libakonadi-xml4 -> libkf5akonadixml5
+  * Build dependencies were adjusted to a sutiable version
+  * All ACC files were removed until someone finds time to create
+    new profiles
+  * KDE 4 specific tech in debian/rules was removed along with library
+    mass-handling as the libraries are rather detangled now and eventually
+    will be split into independent sources altogether.
+  * libakondi-kf5 replaces libakonadi-kde4 as they install the same mime type
+    file
+  * libkf5akonadisocialutils5 replaces libakonadi-socialutils4 as they contain
+    overlapping data files
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 12 Aug 2015 10:19:07 +0200
+
 kdepimlibs (4:4.14.10-1) unstable; urgency=medium
 
   * New upstream release (4.14.7).
@@ -16,6 +99,29 @@ kdepimlibs (4:4.14.10-1) unstable; urgency=medium
   * Rename libgpgme++2 to v5 due to gcc5 transition.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 15:02:33 +0200
+
+kdepimlibs (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release.
+  * Batchpatch symbols. No missing. 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on default boost libraries instead of 1.55 versions. Not
+    switching prevents you from building this package for wily proposed.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:20:41 +0200
+
+kdepimlibs (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release. 
+  * Fix watch file.
+  * wrap-and-sort 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 06:05:26 -0700
 
 kdepimlibs (4:4.14.6-1) experimental; urgency=medium
 

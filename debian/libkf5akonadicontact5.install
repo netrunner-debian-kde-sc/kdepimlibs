@@ -1,0 +1,3 @@
+usr/lib/*/libKF5AkonadiContact.so.4.*
+usr/lib/*/libKF5AkonadiContact.so.5
+usr/lib/*/qt5/plugins/kcm_akonadicontact_actions.so
