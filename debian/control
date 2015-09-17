@@ -87,7 +87,9 @@ Description: kio slaves used by KDE PIM applications
 Package: libkf5akonadicore5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5akonadicore-bin (= ${binary:Version})
+Depends: libkf5akonadicore-bin (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
