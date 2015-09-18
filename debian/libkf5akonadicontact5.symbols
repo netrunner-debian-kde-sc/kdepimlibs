@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 15.07.90
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE16defaultMapPixmap@Base 15.07.90
@@ -325,7 +325,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
  (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
+ (optional=templinst|arch=!amd64 !arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10rawContactEv@Base 15.07.90
