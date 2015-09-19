@@ -1,9 +1,9 @@
-kdepimlibs (4:15.08.1-1~) UNRELEASED; urgency=medium
+kdepimlibs (4:15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:00:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:15 +0200
 
 kdepimlibs (4:15.08.0-1) experimental; urgency=medium
 
