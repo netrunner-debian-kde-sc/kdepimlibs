@@ -1,6 +1,7 @@
 kdepimlibs (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release
+  * New upstream release#
+  * Adding new and removing MISSING symbols
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 19:21:09 +0100
 
