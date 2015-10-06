@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1+git20151006.1650+15.10 amd64 i386
 libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi10ControlGui11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10ControlGui11qt_metacastEPKc@Base 15.07.90
@@ -267,6 +267,25 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi19CollectionRequesterD0Ev@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterD1Ev@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterD2Ev@Base 15.07.90
+ _ZN7Akonadi19ManageAccountWidget11eventFilterEP7QObjectP6QEvent@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget11qt_metacastEPKc@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget14slotAddAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget15setItemDelegateEP21QAbstractItemDelegate@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget16staticMetaObjectE@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget17setMimeTypeFilterERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget19setCapabilityFilterERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget19slotAccountSelectedERKNS_13AgentInstanceE@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget22setExcludeCapabilitiesERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget25slotModifySelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget25slotRemoveSelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget26slotRestartSelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget30setSpecialCollectionIdentifierERK7QString@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetC1EP7QWidget@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetC2EP7QWidget@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD0Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD1Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD2Ev@Base 4:15.08.1+git20151006.1650+15.10
  _ZN7Akonadi19TagManagementDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog16staticMetaObjectE@Base 15.07.90
@@ -426,6 +445,11 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi19CollectionRequester10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi19CollectionRequester14mimeTypeFilterEv@Base 15.07.90
  _ZNK7Akonadi19CollectionRequester18accessRightsFilterEv@Base 15.07.90
+ _ZNK7Akonadi19ManageAccountWidget10metaObjectEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget14mimeTypeFilterEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget16capabilityFilterEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget19excludeCapabilitiesEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget4viewEv@Base 4:15.08.1+git20151006.1650+15.10
  _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager13selectedItemsEv@Base 15.07.90
@@ -461,6 +485,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTIN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTIN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTIN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTIN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTIN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTIN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTIN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -487,6 +512,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTSN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTSN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTSN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTSN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTSN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTSN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTSN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -513,6 +539,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTVN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTVN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTVN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTVN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTVN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTVN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTVN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -534,6 +561,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  (c++)"non-virtual thunk to Akonadi::EntityListView::~EntityListView()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 15.07.90
+ (c++)"non-virtual thunk to Akonadi::ManageAccountWidget::~ManageAccountWidget()@Base" 4:15.08.1+git20151006.1650+15.10
  (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::TagEditWidget::~TagEditWidget()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 15.07.90

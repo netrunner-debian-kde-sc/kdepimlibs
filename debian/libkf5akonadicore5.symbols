@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1+git20151006.1650+15.10 amd64 i386
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -909,6 +909,16 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi20ItemSerializerPluginD0Ev@Base 15.07.90
  _ZN7Akonadi20ItemSerializerPluginD1Ev@Base 15.07.90
  _ZN7Akonadi20ItemSerializerPluginD2Ev@Base 15.07.90
+ _ZN7Akonadi20QuotaColorProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModel11qt_metacastEPKc@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModel15setWarningColorERK6QColor@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModel16staticMetaObjectE@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModel19setWarningThresholdEd@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModelC1EP7QObject@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModelC2EP7QObject@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModelD0Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModelD1Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi20QuotaColorProxyModelD2Ev@Base 4:15.08.1+git20151006.1650+15.10
  _ZN7Akonadi20StatisticsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel13connectNotifyERK11QMetaMethod@Base 15.07.90
@@ -1936,6 +1946,11 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi20ItemModifyJobPrivate11fullCommandEv@Base 15.07.90
  _ZNK7Akonadi20ItemModifyJobPrivate18jobDebuggingStringEv@Base 15.07.90
  _ZNK7Akonadi20ItemSerializerPlugin5partsERKNS_4ItemE@Base 15.07.90
+ _ZNK7Akonadi20QuotaColorProxyModel10metaObjectEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi20QuotaColorProxyModel12warningColorEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi20QuotaColorProxyModel16warningThresholdEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi20QuotaColorProxyModel4dataERK11QModelIndexi@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi20QuotaColorProxyModel9roleNamesEv@Base 4:15.08.1+git20151006.1650+15.10
  _ZNK7Akonadi20StatisticsProxyModel10headerDataEiN2Qt11OrientationEi@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel11columnCountERK11QModelIndex@Base 15.07.90
@@ -2274,6 +2289,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTIN7Akonadi20IndexPolicyAttributeE@Base 15.07.90
  _ZTIN7Akonadi20ItemModifyJobPrivateE@Base 15.07.90
  _ZTIN7Akonadi20ItemSerializerPluginE@Base 15.07.90
+ _ZTIN7Akonadi20QuotaColorProxyModelE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTIN7Akonadi20StatisticsProxyModelE@Base 15.07.90
  _ZTIN7Akonadi20TransactionCommitJobE@Base 15.07.90
  _ZTIN7Akonadi21AgentFilterProxyModelE@Base 15.07.90
@@ -2382,6 +2398,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTSN7Akonadi20IndexPolicyAttributeE@Base 15.07.90
  _ZTSN7Akonadi20ItemModifyJobPrivateE@Base 15.07.90
  _ZTSN7Akonadi20ItemSerializerPluginE@Base 15.07.90
+ _ZTSN7Akonadi20QuotaColorProxyModelE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTSN7Akonadi20StatisticsProxyModelE@Base 15.07.90
  _ZTSN7Akonadi20TransactionCommitJobE@Base 15.07.90
  _ZTSN7Akonadi21AgentFilterProxyModelE@Base 15.07.90
@@ -2489,6 +2506,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTVN7Akonadi20IndexPolicyAttributeE@Base 15.07.90
  _ZTVN7Akonadi20ItemModifyJobPrivateE@Base 15.07.90
  _ZTVN7Akonadi20ItemSerializerPluginE@Base 15.07.90
+ _ZTVN7Akonadi20QuotaColorProxyModelE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTVN7Akonadi20StatisticsProxyModelE@Base 15.07.90
  _ZTVN7Akonadi20TransactionCommitJobE@Base 15.07.90
  _ZTVN7Akonadi21AgentFilterProxyModelE@Base 15.07.90
