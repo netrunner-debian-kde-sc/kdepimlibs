@@ -2,6 +2,7 @@ kdepimlibs (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Fix *.install akonadi library versions. 
+  * Revert install files. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 22:37:37 -0700
 
