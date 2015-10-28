@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20151003.0143+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151028.1653+15.10 amd64 i386
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocols4selfEv@Base 15.07.90
  _ZN11IMProtocols5mSelfE@Base 15.07.90
@@ -176,6 +176,14 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi21EmailAddressSelectionD1Ev@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionD2Ev@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionaSERKS0_@Base 15.07.90
+ _ZN7Akonadi23SelectAddressBookDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialog11qt_metacastEPKc@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialog16staticMetaObjectE@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialogC1EP7QWidget@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialogC2EP7QWidget@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialogD0Ev@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialogD1Ev@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialogD2Ev@Base 4:15.08.2+git20151028.1653+15.10
  _ZN7Akonadi24AbstractContactFormatter10setContactERKN9KContacts9AddresseeE@Base 15.07.90
  _ZN7Akonadi24AbstractContactFormatter26setCustomFieldDescriptionsERK7QVectorI4QMapI7QString8QVariantEE@Base 15.07.90
  _ZN7Akonadi24AbstractContactFormatter7setItemERKNS_4ItemE@Base 15.07.90
@@ -341,6 +349,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK7Akonadi21EmailAddressSelection4nameEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection5emailEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection7isValidEv@Base 15.07.90
+ _ZNK7Akonadi23SelectAddressBookDialog10metaObjectEv@Base 4:15.08.2+git20151028.1653+15.10
  _ZNK7Akonadi24AbstractContactFormatter23customFieldDescriptionsEv@Base 15.07.90
  _ZNK7Akonadi24AbstractContactFormatter4itemEv@Base 15.07.90
  _ZNK7Akonadi24AbstractContactFormatter7contactEv@Base 15.07.90
@@ -401,6 +410,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTIN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTIN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
  _ZTIN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
+ _ZTIN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
  _ZTIN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTIN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTIN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -427,6 +437,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTSN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTSN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
  _ZTSN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
+ _ZTSN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
  _ZTSN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTSN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTSN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -453,6 +464,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTVN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTVN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
  _ZTVN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
+ _ZTVN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
  _ZTVN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTVN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTVN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -481,3 +493,4 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  (c++)"non-virtual thunk to Akonadi::EmailAddressRequester::~EmailAddressRequester()@Base" 4:15.08.1+git20151003.0143+15.10
  (c++)"non-virtual thunk to Akonadi::EmailAddressSelectionDialog::~EmailAddressSelectionDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::EmailAddressSelectionWidget::~EmailAddressSelectionWidget()@Base" 15.07.90
+ (c++)"non-virtual thunk to Akonadi::SelectAddressBookDialog::~SelectAddressBookDialog()@Base" 4:15.08.2+git20151028.1653+15.10
