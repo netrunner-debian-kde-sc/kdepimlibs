@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2 amd64
+# SymbolsHelper-Confirmed: 4:15.08.2 amd64 armel hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi10CollectionE@Base 15.07.90
  _Z5qHashRKN7Akonadi3TagE@Base 15.07.90
@@ -1414,10 +1414,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi4Item11setRevisionEi@Base 15.07.90
  _ZN7Akonadi4Item12clearPayloadEv@Base 15.07.90
  _ZN7Akonadi4Item14setPayloadBaseEPNS_11PayloadBaseE@Base 15.07.90
- (optional=templinst|arch=!ppc64el)_ZN7Akonadi4Item14setPayloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS6_@Base 15.07.90
+ (optional=templinst)_ZN7Akonadi4Item14setPayloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS6_@Base 15.07.90
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKSB_@Base 15.07.90
  _ZN7Akonadi4Item16setPayloadBaseV2EiiRSt10unique_ptrINS_11PayloadBaseESt14default_deleteIS2_EE@Base 15.07.90
- (optional=templinst|arch=!ppc64el)_ZN7Akonadi4Item18addToLegacyMappingI10QByteArrayEEvRK7QString@Base 15.07.90
+ (optional=templinst)_ZN7Akonadi4Item18addToLegacyMappingI10QByteArrayEEvRK7QString@Base 15.07.90
  _ZN7Akonadi4Item18setPayloadFromDataERK10QByteArray@Base 15.07.90
  _ZN7Akonadi4Item19setModificationTimeERK9QDateTime@Base 15.07.90
  _ZN7Akonadi4Item20setVirtualReferencesERK7QVectorINS_10CollectionEE@Base 15.07.90
@@ -1714,7 +1714,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN9QHashData9hasShrunkEv@Base 15.07.90
  _ZNK10QByteArray7isEmptyEv@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryIxEE5QListIT_EPKcRKS3_@Base 15.07.90
- (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 15.07.90
+ (optional=templinst|arch=amd64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 15.07.90
  _ZNK12RelationSync10metaObjectEv@Base 15.07.90
  _ZNK33CollectionIdentificationAttribute10identifierEv@Base 15.07.90
  _ZNK33CollectionIdentificationAttribute10serializedEv@Base 15.07.90
@@ -2168,7 +2168,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi4Item10hasPayloadEv@Base 15.07.90
  _ZNK7Akonadi4Item11payloadBaseEv@Base 15.07.90
  _ZNK7Akonadi4Item11payloadDataEv@Base 15.07.90
- (optional=templinst|arch=!ppc64el)_ZNK7Akonadi4Item11payloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES6_E4typeEv@Base 15.07.90
+ (optional=templinst)_ZNK7Akonadi4Item11payloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES6_E4typeEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESB_E4typeEv@Base 15.07.90
  _ZNK7Akonadi4Item13payloadBaseV2Eii@Base 15.07.90
  _ZNK7Akonadi4Item16ensureMetaTypeIdEi@Base 15.07.90
@@ -2194,7 +2194,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi4Item9relationsEv@Base 15.07.90
  _ZNK7Akonadi6Entity10attributesEv@Base 15.07.90
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 15.07.90
- (optional=templinst|arch=!amd64)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 15.07.90
+ (optional=templinst|arch=!amd64 !kfreebsd-amd64 !mips64el)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 15.07.90
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 15.07.90
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 15.07.90
  _ZNK7Akonadi6Entity2idEv@Base 15.07.90
@@ -2273,9 +2273,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi9ItemModel9mimeTypesEv@Base 15.07.90
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 15.07.90
  _ZNK7TagSync10metaObjectEv@Base 15.07.90
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 15.07.90
- (optional=templinst|arch=ppc64el)_ZSt4swapIN7Akonadi3TagEEvRT_S3_@Base 4:15.07.90
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 4:15.08.2
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:15.08.2
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 15.07.90
  _ZTI11QSharedData@Base 15.07.90
  _ZTI12RelationSync@Base 15.07.90
  _ZTI33CollectionIdentificationAttribute@Base 15.07.90
@@ -2421,8 +2422,11 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTIN7Akonadi9ExceptionE@Base 15.07.90
  _ZTIN7Akonadi9ItemModelE@Base 15.07.90
  _ZTIN7Akonadi9UnlinkJobE@Base 15.07.90
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 15.07.90
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 15.07.90
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 4:15.08.2
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:15.08.2
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:15.08.2
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
  _ZTS11QSharedData@Base 15.07.90
  _ZTS12RelationSync@Base 15.07.90
  _ZTS33CollectionIdentificationAttribute@Base 15.07.90
@@ -2568,8 +2572,11 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTSN7Akonadi9ExceptionE@Base 15.07.90
  _ZTSN7Akonadi9ItemModelE@Base 15.07.90
  _ZTSN7Akonadi9UnlinkJobE@Base 15.07.90
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 15.07.90
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 15.07.90
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 4:15.08.2
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:15.08.2
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:15.08.2
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
  _ZTV12RelationSync@Base 15.07.90
  _ZTV33CollectionIdentificationAttribute@Base 15.07.90
  _ZTV7TagSync@Base 15.07.90
