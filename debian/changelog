@@ -1,3 +1,9 @@
+kdepimlibs (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 13:33:12 +0100
+
 kdepimlibs (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
