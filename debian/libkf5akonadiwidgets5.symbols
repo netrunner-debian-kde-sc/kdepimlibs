@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2243+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1+git20151006.1650+15.10 amd64 i386
 libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi10ControlGui11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10ControlGui11qt_metacastEPKc@Base 15.07.90
@@ -8,8 +8,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi10ControlGui4stopEv@Base 15.07.90
  _ZN7Akonadi10ControlGui5startEP7QWidget@Base 15.07.90
  _ZN7Akonadi10ControlGui5startEv@Base 15.07.90
- _ZN7Akonadi10ControlGui7Private18serverStateChangedENS_13ServerManager5StateE@Base 15.07.90
- _ZN7Akonadi10ControlGui7Private4execEv@Base 15.07.90
  _ZN7Akonadi10ControlGui7restartEP7QWidget@Base 15.07.90
  _ZN7Akonadi10ControlGui7restartEv@Base 15.07.90
  _ZN7Akonadi10ControlGuiC1Ev@Base 15.07.90
@@ -20,21 +18,8 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi13TagEditWidget11eventFilterEP7QObjectP6QEvent@Base 15.07.90
  _ZN7Akonadi13TagEditWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13TagEditWidget11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi13TagEditWidget12setSelectionERK5QListINS_3TagEE@Base 15.07.90
+ _ZN7Akonadi13TagEditWidget12setSelectionERK7QVectorINS_3TagEE@Base 4:15.08.1
  _ZN7Akonadi13TagEditWidget16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private13slotCreateTagEv@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private14onRowsInsertedERK11QModelIndexii@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private14slotTextEditedERK7QString@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private15slotItemEnteredERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private16showDeleteButtonEv@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private21slotCreateTagFinishedEP4KJob@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private6selectERK11QModelIndexiiN19QItemSelectionModel13SelectionFlagE@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7Private9deleteTagEv@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7PrivateC1EPNS_8TagModelEP7QWidget@Base 15.07.90
- _ZN7Akonadi13TagEditWidget7PrivateC2EPNS_8TagModelEP7QWidget@Base 15.07.90
  _ZN7Akonadi13TagEditWidgetC1EPNS_8TagModelEP7QWidgetb@Base 15.07.90
  _ZN7Akonadi13TagEditWidgetC2EPNS_8TagModelEP7QWidgetb@Base 15.07.90
  _ZN7Akonadi13TagEditWidgetD0Ev@Base 15.07.90
@@ -48,11 +33,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi14CollectionView15setXmlGuiClientEP13KXMLGUIClient@Base 15.07.90
  _ZN7Akonadi14CollectionView16contextMenuEventEP17QContextMenuEvent@Base 15.07.90
  _ZN7Akonadi14CollectionView16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi14CollectionView7Private10dragExpandEv@Base 15.07.90
- _ZN7Akonadi14CollectionView7Private11itemClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14CollectionView7Private18itemCurrentChangedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14CollectionView7Private4initEv@Base 15.07.90
- _ZN7Akonadi14CollectionView7Private9hasParentERK11QModelIndexx@Base 15.07.90
  _ZN7Akonadi14CollectionView7clickedERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi14CollectionView8setModelEP18QAbstractItemModel@Base 15.07.90
  _ZN7Akonadi14CollectionView9dropEventEP10QDropEvent@Base 15.07.90
@@ -74,10 +54,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi14EntityListView16contextMenuEventEP17QContextMenuEvent@Base 15.07.90
  _ZN7Akonadi14EntityListView16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi14EntityListView24setDropActionMenuEnabledEb@Base 15.07.90
- _ZN7Akonadi14EntityListView7Private11itemClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityListView7Private17itemDoubleClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityListView7Private18itemCurrentChangedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityListView7Private4initEv@Base 15.07.90
  _ZN7Akonadi14EntityListView7clickedERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi14EntityListView7clickedERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi14EntityListView8setModelEP18QAbstractItemModel@Base 15.07.90
@@ -104,11 +80,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi14EntityTreeView19setDefaultPopupMenuERK7QString@Base 15.07.90
  _ZN7Akonadi14EntityTreeView22setManualSortingActiveEb@Base 15.07.90
  _ZN7Akonadi14EntityTreeView24setDropActionMenuEnabledEb@Base 15.07.90
- _ZN7Akonadi14EntityTreeView7Private11itemClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityTreeView7Private17itemDoubleClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityTreeView7Private18itemCurrentChangedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi14EntityTreeView7Private20slotSelectionChangedERK14QItemSelectionS4_@Base 15.07.90
- _ZN7Akonadi14EntityTreeView7Private4initEv@Base 15.07.90
  _ZN7Akonadi14EntityTreeView7clickedERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi14EntityTreeView7clickedERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi14EntityTreeView8setModelEP18QAbstractItemModel@Base 15.07.90
@@ -150,8 +121,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi15AgentTypeDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi15AgentTypeDialog16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi15AgentTypeDialog4doneEi@Base 15.07.90
- _ZN7Akonadi15AgentTypeDialog7Private10readConfigEv@Base 15.07.90
- _ZN7Akonadi15AgentTypeDialog7Private11writeConfigEv@Base 15.07.90
  _ZN7Akonadi15AgentTypeDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi15AgentTypeDialogC2EP7QWidget@Base 15.07.90
  _ZN7Akonadi15AgentTypeDialogD0Ev@Base 15.07.90
@@ -161,7 +130,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi15AgentTypeWidget11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi15AgentTypeWidget14currentChangedERKNS_9AgentTypeES3_@Base 15.07.90
  _ZN7Akonadi15AgentTypeWidget16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi15AgentTypeWidget7Private23currentAgentTypeChangedERK11QModelIndexS4_@Base 15.07.90
  _ZN7Akonadi15AgentTypeWidget9activatedEv@Base 15.07.90
  _ZN7Akonadi15AgentTypeWidgetC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi15AgentTypeWidgetC2EP7QWidget@Base 15.07.90
@@ -173,9 +141,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi15CachePolicyPage16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi15CachePolicyPage4loadERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi15CachePolicyPage4saveERNS_10CollectionE@Base 15.07.90
- _ZN7Akonadi15CachePolicyPage7Private21slotCacheValueChangedEi@Base 15.07.90
- _ZN7Akonadi15CachePolicyPage7Private24slotIntervalValueChangedEi@Base 15.07.90
- _ZN7Akonadi15CachePolicyPage7Private36slotRetrievalOptionsGroupBoxDisabledEb@Base 15.07.90
  _ZN7Akonadi15CachePolicyPageC1EP7QWidgetNS0_7GuiModeE@Base 15.07.90
  _ZN7Akonadi15CachePolicyPageC2EP7QWidgetNS0_7GuiModeE@Base 15.07.90
  _ZN7Akonadi15CachePolicyPageD0Ev@Base 15.07.90
@@ -183,10 +148,9 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi15CachePolicyPageD2Ev@Base 15.07.90
  _ZN7Akonadi15TagSelectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi15TagSelectWidget11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi15TagSelectWidget12setSelectionERK5QListINS_3TagEE@Base 15.07.90
+ _ZN7Akonadi15TagSelectWidget12setSelectionERK7QVectorINS_3TagEE@Base 4:15.08.1
  _ZN7Akonadi15TagSelectWidget16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi15TagSelectWidget26setSelectionFromStringListERK11QStringList@Base 15.07.90
- _ZN7Akonadi15TagSelectWidget7Private4initEv@Base 15.07.90
  _ZN7Akonadi15TagSelectWidgetC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi15TagSelectWidgetC2EP7QWidget@Base 15.07.90
  _ZN7Akonadi15TagSelectWidgetD0Ev@Base 15.07.90
@@ -203,11 +167,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi16CollectionDialog21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 15.07.90
  _ZN7Akonadi16CollectionDialog21setUseFolderByDefaultEb@Base 15.07.90
  _ZN7Akonadi16CollectionDialog29changeCollectionDialogOptionsE6QFlagsINS0_22CollectionDialogOptionEE@Base 15.07.90
- _ZN7Akonadi16CollectionDialog7Private17slotDoubleClickedEv@Base 15.07.90
- _ZN7Akonadi16CollectionDialog7Private20slotSelectionChangedEv@Base 15.07.90
- _ZN7Akonadi16CollectionDialog7Private22slotAddChildCollectionEv@Base 15.07.90
- _ZN7Akonadi16CollectionDialog7Private28slotCollectionCreationResultEP4KJob@Base 15.07.90
- _ZN7Akonadi16CollectionDialog7Private29changeCollectionDialogOptionsE6QFlagsINS0_22CollectionDialogOptionEE@Base 15.07.90
  _ZN7Akonadi16CollectionDialogC1E6QFlagsINS0_22CollectionDialogOptionEEP18QAbstractItemModelP7QWidget@Base 15.07.90
  _ZN7Akonadi16CollectionDialogC1EP18QAbstractItemModelP7QWidget@Base 15.07.90
  _ZN7Akonadi16CollectionDialogC1EP7QWidget@Base 15.07.90
@@ -251,8 +210,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi18CollectionComboBox20setDefaultCollectionERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi18CollectionComboBox21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 15.07.90
  _ZN7Akonadi18CollectionComboBox28setExcludeVirtualCollectionsEb@Base 15.07.90
- _ZN7Akonadi18CollectionComboBox7Private9activatedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi18CollectionComboBox7Private9activatedEi@Base 15.07.90
  _ZN7Akonadi18CollectionComboBoxC1EP18QAbstractItemModelP7QWidget@Base 15.07.90
  _ZN7Akonadi18CollectionComboBoxC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi18CollectionComboBoxC2EP18QAbstractItemModelP7QWidget@Base 15.07.90
@@ -265,8 +222,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi18SubscriptionDialog16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi18SubscriptionDialog20showHiddenCollectionEb@Base 15.07.90
  _ZN7Akonadi18SubscriptionDialog4initERK11QStringList@Base 15.07.90
- _ZN7Akonadi18SubscriptionDialog7Private13slotSubscribeEv@Base 15.07.90
- _ZN7Akonadi18SubscriptionDialog7Private15slotUnSubscribeEv@Base 15.07.90
  _ZN7Akonadi18SubscriptionDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi18SubscriptionDialogC1ERK11QStringListP7QWidget@Base 15.07.90
  _ZN7Akonadi18SubscriptionDialogC2EP7QWidget@Base 15.07.90
@@ -276,11 +231,9 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi18SubscriptionDialogD2Ev@Base 15.07.90
  _ZN7Akonadi18TagSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi18TagSelectionDialog11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi18TagSelectionDialog12setSelectionERK5QListINS_3TagEE@Base 15.07.90
- _ZN7Akonadi18TagSelectionDialog16selectionChangedERK5QListINS_3TagEE@Base 15.07.90
+ _ZN7Akonadi18TagSelectionDialog12setSelectionERK7QVectorINS_3TagEE@Base 4:15.08.1
+ _ZN7Akonadi18TagSelectionDialog16selectionChangedERK7QVectorINS_3TagEE@Base 4:15.08.1
  _ZN7Akonadi18TagSelectionDialog16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi18TagSelectionDialog7Private10readConfigEv@Base 15.07.90
- _ZN7Akonadi18TagSelectionDialog7Private11writeConfigEv@Base 15.07.90
  _ZN7Akonadi18TagSelectionDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi18TagSelectionDialogC2EP7QWidget@Base 15.07.90
  _ZN7Akonadi18TagSelectionDialogD0Ev@Base 15.07.90
@@ -291,9 +244,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi19AgentInstanceWidget13doubleClickedERKNS_13AgentInstanceE@Base 15.07.90
  _ZN7Akonadi19AgentInstanceWidget14currentChangedERKNS_13AgentInstanceES3_@Base 15.07.90
  _ZN7Akonadi19AgentInstanceWidget16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi19AgentInstanceWidget7Private27currentAgentInstanceChangedERK11QModelIndexS4_@Base 15.07.90
- _ZN7Akonadi19AgentInstanceWidget7Private27currentAgentInstanceClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi19AgentInstanceWidget7Private33currentAgentInstanceDoubleClickedERK11QModelIndex@Base 15.07.90
  _ZN7Akonadi19AgentInstanceWidget7clickedERKNS_13AgentInstanceE@Base 15.07.90
  _ZN7Akonadi19AgentInstanceWidgetC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi19AgentInstanceWidgetC2EP7QWidget@Base 15.07.90
@@ -310,11 +260,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi19CollectionRequester19setContentMimeTypesERK11QStringList@Base 15.07.90
  _ZN7Akonadi19CollectionRequester21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 15.07.90
  _ZN7Akonadi19CollectionRequester29changeCollectionDialogOptionsE6QFlagsINS_16CollectionDialog22CollectionDialogOptionEE@Base 15.07.90
- _ZN7Akonadi19CollectionRequester7Private15fetchCollectionERKNS_10CollectionE@Base 15.07.90
- _ZN7Akonadi19CollectionRequester7Private17_k_slotOpenDialogEv@Base 15.07.90
- _ZN7Akonadi19CollectionRequester7Private21_k_collectionReceivedEP4KJob@Base 15.07.90
- _ZN7Akonadi19CollectionRequester7Private27_k_collectionsNamesReceivedEP4KJob@Base 15.07.90
- _ZN7Akonadi19CollectionRequester7Private4initEv@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterC1ERKNS_10CollectionEP7QWidget@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterC2EP7QWidget@Base 15.07.90
@@ -322,11 +267,28 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi19CollectionRequesterD0Ev@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterD1Ev@Base 15.07.90
  _ZN7Akonadi19CollectionRequesterD2Ev@Base 15.07.90
+ _ZN7Akonadi19ManageAccountWidget11eventFilterEP7QObjectP6QEvent@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget11qt_metacastEPKc@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget14slotAddAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget15setItemDelegateEP21QAbstractItemDelegate@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget16staticMetaObjectE@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget17setMimeTypeFilterERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget19setCapabilityFilterERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget19slotAccountSelectedERKNS_13AgentInstanceE@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget22setExcludeCapabilitiesERK11QStringList@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget25slotModifySelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget25slotRemoveSelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget26slotRestartSelectedAccountEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidget30setSpecialCollectionIdentifierERK7QString@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetC1EP7QWidget@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetC2EP7QWidget@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD0Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD1Ev@Base 4:15.08.1+git20151006.1650+15.10
+ _ZN7Akonadi19ManageAccountWidgetD2Ev@Base 4:15.08.1+git20151006.1650+15.10
  _ZN7Akonadi19TagManagementDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi19TagManagementDialog7Private10readConfigEv@Base 15.07.90
- _ZN7Akonadi19TagManagementDialog7Private11writeConfigEv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog7buttonsEv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi19TagManagementDialogC2EP7QWidget@Base 15.07.90
@@ -372,10 +334,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi26CollectionPropertiesDialog14useDefaultPageEb@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialog16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialog21defaultPageObjectNameENS0_11DefaultPageE@Base 15.07.90
- _ZN7Akonadi26CollectionPropertiesDialog7Private20registerBuiltinPagesEv@Base 15.07.90
- _ZN7Akonadi26CollectionPropertiesDialog7Private4initEv@Base 15.07.90
- _ZN7Akonadi26CollectionPropertiesDialog7PrivateC1EPS0_RKNS_10CollectionERK11QStringList@Base 15.07.90
- _ZN7Akonadi26CollectionPropertiesDialog7PrivateC2EPS0_RKNS_10CollectionERK11QStringList@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialogC1ERKNS_10CollectionEP7QWidget@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialogC1ERKNS_10CollectionERK11QStringListP7QWidget@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialogC2ERKNS_10CollectionEP7QWidget@Base 15.07.90
@@ -406,12 +364,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi8ItemView15setXmlGuiClientEP13KXMLGUIClient@Base 15.07.90
  _ZN7Akonadi8ItemView16contextMenuEventEP17QContextMenuEvent@Base 15.07.90
  _ZN7Akonadi8ItemView16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi8ItemView7Private11itemClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi8ItemView7Private12itemForIndexERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi8ItemView7Private13itemActivatedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi8ItemView7Private17itemDoubleClickedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi8ItemView7Private18itemCurrentChangedERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi8ItemView7Private4initEv@Base 15.07.90
  _ZN7Akonadi8ItemView7clickedERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi8ItemView8setModelEP18QAbstractItemModel@Base 15.07.90
  _ZN7Akonadi8ItemView9activatedERKNS_4ItemE@Base 15.07.90
@@ -425,8 +377,8 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi9TagWidget10updateViewEv@Base 15.07.90
  _ZN7Akonadi9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi9TagWidget11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi9TagWidget12setSelectionERK5QListINS_3TagEE@Base 15.07.90
- _ZN7Akonadi9TagWidget16selectionChangedERK5QListINS_3TagEE@Base 15.07.90
+ _ZN7Akonadi9TagWidget12setSelectionERK7QVectorINS_3TagEE@Base 4:15.08.1
+ _ZN7Akonadi9TagWidget16selectionChangedERK7QVectorINS_3TagEE@Base 4:15.08.1
  _ZN7Akonadi9TagWidget16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi9TagWidget8editTagsEv@Base 15.07.90
  _ZN7Akonadi9TagWidgetC1EP7QWidget@Base 15.07.90
@@ -438,7 +390,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10ControlGui10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget10metaObjectEv@Base 15.07.90
- _ZNK7Akonadi13TagEditWidget7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget9selectionEv@Base 15.07.90
  _ZNK7Akonadi14CollectionView10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi14EntityListView10metaObjectEv@Base 15.07.90
@@ -470,8 +421,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi16CollectionDialog18selectedCollectionEv@Base 15.07.90
  _ZNK7Akonadi16CollectionDialog18useFolderByDefaultEv@Base 15.07.90
  _ZNK7Akonadi16CollectionDialog19selectedCollectionsEv@Base 15.07.90
- _ZNK7Akonadi16CollectionDialog7Private19canCreateCollectionERKNS_10CollectionE@Base 15.07.90
- _ZNK7Akonadi16CollectionDialog7Private19canSelectCollectionEv@Base 15.07.90
  _ZNK7Akonadi17ETMViewStateSaver10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi17ETMViewStateSaver19indexToConfigStringERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi17ETMViewStateSaver21indexFromConfigStringEPK18QAbstractItemModelRK7QString@Base 15.07.90
@@ -496,6 +445,11 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi19CollectionRequester10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi19CollectionRequester14mimeTypeFilterEv@Base 15.07.90
  _ZNK7Akonadi19CollectionRequester18accessRightsFilterEv@Base 15.07.90
+ _ZNK7Akonadi19ManageAccountWidget10metaObjectEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget14mimeTypeFilterEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget16capabilityFilterEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget19excludeCapabilitiesEv@Base 4:15.08.1+git20151006.1650+15.10
+ _ZNK7Akonadi19ManageAccountWidget4viewEv@Base 4:15.08.1+git20151006.1650+15.10
  _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager13selectedItemsEv@Base 15.07.90
@@ -514,7 +468,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi9TagWidget10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi9TagWidget9selectionEv@Base 15.07.90
  _ZTIN7Akonadi10ControlGuiE@Base 15.07.90
- _ZTIN7Akonadi13TagEditWidget7PrivateE@Base 15.07.90
  _ZTIN7Akonadi13TagEditWidgetE@Base 15.07.90
  _ZTIN7Akonadi14CollectionViewE@Base 15.07.90
  _ZTIN7Akonadi14EntityListViewE@Base 15.07.90
@@ -532,6 +485,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTIN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTIN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTIN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTIN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTIN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTIN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTIN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -541,7 +495,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTIN7Akonadi8ItemViewE@Base 15.07.90
  _ZTIN7Akonadi9TagWidgetE@Base 15.07.90
  _ZTSN7Akonadi10ControlGuiE@Base 15.07.90
- _ZTSN7Akonadi13TagEditWidget7PrivateE@Base 15.07.90
  _ZTSN7Akonadi13TagEditWidgetE@Base 15.07.90
  _ZTSN7Akonadi14CollectionViewE@Base 15.07.90
  _ZTSN7Akonadi14EntityListViewE@Base 15.07.90
@@ -559,6 +512,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTSN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTSN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTSN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTSN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTSN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTSN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTSN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -568,7 +522,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTSN7Akonadi8ItemViewE@Base 15.07.90
  _ZTSN7Akonadi9TagWidgetE@Base 15.07.90
  _ZTVN7Akonadi10ControlGuiE@Base 15.07.90
- _ZTVN7Akonadi13TagEditWidget7PrivateE@Base 15.07.90
  _ZTVN7Akonadi13TagEditWidgetE@Base 15.07.90
  _ZTVN7Akonadi14CollectionViewE@Base 15.07.90
  _ZTVN7Akonadi14EntityListViewE@Base 15.07.90
@@ -586,6 +539,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTVN7Akonadi18TagSelectionDialogE@Base 15.07.90
  _ZTVN7Akonadi19AgentInstanceWidgetE@Base 15.07.90
  _ZTVN7Akonadi19CollectionRequesterE@Base 15.07.90
+ _ZTVN7Akonadi19ManageAccountWidgetE@Base 4:15.08.1+git20151006.1650+15.10
  _ZTVN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTVN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTVN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
@@ -594,17 +548,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTVN7Akonadi31CollectionPropertiesPageFactoryE@Base 15.07.90
  _ZTVN7Akonadi8ItemViewE@Base 15.07.90
  _ZTVN7Akonadi9TagWidgetE@Base 15.07.90
- _ZZZN7Akonadi14EntityTreeView7PrivateC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZN7Akonadi16CollectionDialog7Private10readConfigEvENKUlvE0_clEvE15qstring_literal@Base 15.07.90
- _ZZZN7Akonadi16CollectionDialog7Private10readConfigEvENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZN7Akonadi16CollectionDialog7Private11writeConfigEvENKUlvE0_clEvE15qstring_literal@Base 15.07.90
- _ZZZN7Akonadi16CollectionDialog7Private11writeConfigEvENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZN7Akonadi18AgentActionManager7Private13updateActionsEvENKUlvE_clEvE15qstring_literal@Base 15.07.90
- (optional=templinst)_ZZZN7Akonadi21StandardActionManager7Private15fillFoldersMenuERK7QVectorINS_10CollectionEERK4QSetI7QStringENS0_4TypeEP5QMenuPK18QAbstractItemModelRK11QModelIndexENKUlvE0_clEvE15qstring_literal@Base 15.07.90
- (optional=templinst)_ZZZN7Akonadi21StandardActionManager7Private15fillFoldersMenuERK7QVectorINS_10CollectionEERK4QSetI7QStringENS0_4TypeEP5QMenuPK18QAbstractItemModelRK11QModelIndexENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZNK7Akonadi21StandardActionManager7Private11contextTextENS0_4TypeENS0_11TextContextEiRK7QStringENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZNK7Akonadi21StandardActionManager7Private11isCutActionEPK9QMimeDataENKUlvE_clEvE15qstring_literal@Base 15.07.90
- _ZZZNK7Akonadi21StandardActionManager7Private13markCutActionEP9QMimeDatabENKUlvE_clEvE15qstring_literal@Base 15.07.90
  (c++)"non-virtual thunk to Akonadi::AgentInstanceWidget::~AgentInstanceWidget()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::AgentTypeDialog::~AgentTypeDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::AgentTypeWidget::~AgentTypeWidget()@Base" 15.07.90
@@ -618,6 +561,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  (c++)"non-virtual thunk to Akonadi::EntityListView::~EntityListView()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 15.07.90
+ (c++)"non-virtual thunk to Akonadi::ManageAccountWidget::~ManageAccountWidget()@Base" 4:15.08.1+git20151006.1650+15.10
  (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::TagEditWidget::~TagEditWidget()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 15.07.90

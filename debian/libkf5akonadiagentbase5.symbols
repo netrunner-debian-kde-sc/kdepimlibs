@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2243+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZN7Akonadi12ResourceBase10cancelTaskERK7QString@Base 15.07.90
  _ZN7Akonadi12ResourceBase10cancelTaskEv@Base 15.07.90
@@ -13,7 +13,7 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZN7Akonadi12ResourceBase13abortActivityEv@Base 15.07.90
  _ZN7Akonadi12ResourceBase13itemRetrievedERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi12ResourceBase13setTotalItemsEi@Base 15.07.90
- _ZN7Akonadi12ResourceBase13tagsRetrievedERK5QListINS_3TagEERK5QHashI7QString7QVectorINS_4ItemEEE@Base 15.07.90
+ _ZN7Akonadi12ResourceBase13tagsRetrievedERK7QVectorINS_3TagEERK5QHashI7QStringS1_INS_4ItemEEE@Base 4:15.08.1
  _ZN7Akonadi12ResourceBase14itemsRetrievedERK7QVectorINS_4ItemEE@Base 15.07.90
  _ZN7Akonadi12ResourceBase14parseArgumentsEiPPc@Base 15.07.90
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_10CollectionE@Base 15.07.90
@@ -28,11 +28,10 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZN7Akonadi12ResourceBase18relationsRetrievedERK7QVectorINS_8RelationEE@Base 15.07.90
  _ZN7Akonadi12ResourceBase18scheduleCustomTaskEP7QObjectPKcRK8QVariantNS0_16SchedulePriorityE@Base 15.07.90
  _ZN7Akonadi12ResourceBase18setItemMergingModeENS_8ItemSync9MergeModeE@Base 4:15.08.1+git20150917.2243+15.10
- _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK11QStringList@Base 15.07.90
+ _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK5QListI10QByteArrayE@Base 4:15.08.1
  _ZN7Akonadi12ResourceBase20collectionsRetrievedERK7QVectorINS_10CollectionEE@Base 15.07.90
  _ZN7Akonadi12ResourceBase20setItemSyncBatchSizeEi@Base 15.07.90
  _ZN7Akonadi12ResourceBase20synchronizeRelationsEv@Base 15.07.90
- _ZN7Akonadi12ResourceBase21requestItemDeliveryV2ExRK7QStringS3_RK11QStringList@Base 15.07.90
  _ZN7Akonadi12ResourceBase21synchronizeCollectionEx@Base 15.07.90
  _ZN7Akonadi12ResourceBase21synchronizeCollectionExb@Base 15.07.90
  _ZN7Akonadi12ResourceBase22attributesSynchronizedEx@Base 15.07.90
@@ -64,14 +63,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZN7Akonadi12ResourceBaseD0Ev@Base 15.07.90
  _ZN7Akonadi12ResourceBaseD1Ev@Base 15.07.90
  _ZN7Akonadi12ResourceBaseD2Ev@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBase11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBase16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBaseC1EPKcP7QObject@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBaseC2EPKcP7QObject@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBaseD0Ev@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBaseD1Ev@Base 15.07.90
- _ZN7Akonadi16AgentFactoryBaseD2Ev@Base 15.07.90
  _ZN7Akonadi16PreprocessorBase10fetchScopeEv@Base 15.07.90
  _ZN7Akonadi16PreprocessorBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi16PreprocessorBase11qt_metacastEPKc@Base 15.07.90
@@ -136,7 +127,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZN7Akonadi9AgentBase11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi9AgentBase11reconfigureEv@Base 15.07.90
  _ZN7Akonadi9AgentBase12setAgentNameERK7QString@Base 15.07.90
- _ZN7Akonadi9AgentBase13componentDataEv@Base 15.07.90
  _ZN7Akonadi9AgentBase13onlineChangedEb@Base 15.07.90
  _ZN7Akonadi9AgentBase14abortRequestedEv@Base 15.07.90
  _ZN7Akonadi9AgentBase14advancedStatusERK4QMapI7QString8QVariantE@Base 15.07.90
@@ -189,8 +179,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZNK7Akonadi12ResourceBase22dumpMemoryInfoToStringEv@Base 15.07.90
  _ZNK7Akonadi12ResourceBase28dumpNotificationListToStringEv@Base 15.07.90
  _ZNK7Akonadi12ResourceBase4nameEv@Base 15.07.90
- _ZNK7Akonadi16AgentFactoryBase10metaObjectEv@Base 15.07.90
- _ZNK7Akonadi16AgentFactoryBase19createComponentDataERK7QString@Base 15.07.90
  _ZNK7Akonadi16PreprocessorBase10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi16ResourceSettings10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi9AgentBase10identifierEv@Base 15.07.90
@@ -205,7 +193,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZNK7Akonadi9AgentBase9agentNameEv@Base 15.07.90
  _ZTI12QDBusContext@Base 15.07.90
  _ZTIN7Akonadi12ResourceBaseE@Base 15.07.90
- _ZTIN7Akonadi16AgentFactoryBaseE@Base 15.07.90
  _ZTIN7Akonadi16PreprocessorBaseE@Base 15.07.90
  _ZTIN7Akonadi16ResourceSettingsE@Base 15.07.90
  _ZTIN7Akonadi20AgentSearchInterfaceE@Base 15.07.90
@@ -218,7 +205,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZTIN7Akonadi9AgentBaseE@Base 15.07.90
  _ZTS12QDBusContext@Base 15.07.90
  _ZTSN7Akonadi12ResourceBaseE@Base 15.07.90
- _ZTSN7Akonadi16AgentFactoryBaseE@Base 15.07.90
  _ZTSN7Akonadi16PreprocessorBaseE@Base 15.07.90
  _ZTSN7Akonadi16ResourceSettingsE@Base 15.07.90
  _ZTSN7Akonadi20AgentSearchInterfaceE@Base 15.07.90
@@ -230,7 +216,6 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#
  _ZTSN7Akonadi9AgentBase8ObserverE@Base 15.07.90
  _ZTSN7Akonadi9AgentBaseE@Base 15.07.90
  _ZTVN7Akonadi12ResourceBaseE@Base 15.07.90
- _ZTVN7Akonadi16AgentFactoryBaseE@Base 15.07.90
  _ZTVN7Akonadi16PreprocessorBaseE@Base 15.07.90
  _ZTVN7Akonadi16ResourceSettingsE@Base 15.07.90
  _ZTVN7Akonadi20AgentSearchInterfaceE@Base 15.07.90
