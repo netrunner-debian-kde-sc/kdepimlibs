@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20151006.1650+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -1252,6 +1252,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi26ResourceSynchronizationJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi26ResourceSynchronizationJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi26ResourceSynchronizationJob16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi26ResourceSynchronizationJob20setTimeoutCountLimitEi@Base 4:15.12.0
  _ZN7Akonadi26ResourceSynchronizationJob21setCollectionTreeOnlyEb@Base 15.07.90
  _ZN7Akonadi26ResourceSynchronizationJob5startEv@Base 15.07.90
  _ZN7Akonadi26ResourceSynchronizationJobC1ERKNS_13AgentInstanceEP7QObject@Base 15.07.90
@@ -2084,6 +2085,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi26EntityAnnotationsAttribute5cloneEv@Base 15.07.90
  _ZNK7Akonadi26EntityAnnotationsAttribute8containsERK10QByteArray@Base 15.07.90
  _ZNK7Akonadi26ResourceSynchronizationJob10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi26ResourceSynchronizationJob17timeoutCountLimitEv@Base 4:15.12.0
  _ZNK7Akonadi26ResourceSynchronizationJob18collectionTreeOnlyEv@Base 15.07.90
  _ZNK7Akonadi26ResourceSynchronizationJob8resourceEv@Base 15.07.90
  _ZNK7Akonadi26SpecialCollectionAttribute10serializedEv@Base 15.07.90

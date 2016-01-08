@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2+git20151028.1653+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocols4selfEv@Base 15.07.90
  _ZN11IMProtocols5mSelfE@Base 15.07.90
@@ -33,6 +33,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi13ContactEditorD2Ev@Base 15.07.90
  _ZN7Akonadi13ContactViewer10setContactERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi13ContactViewer10smsClickedERKN9KContacts11PhoneNumberE@Base 15.07.90
+ _ZN7Akonadi13ContactViewer10updateViewEv@Base 4:15.12.0
  _ZN7Akonadi13ContactViewer10urlClickedERK4QUrl@Base 15.07.90
  _ZN7Akonadi13ContactViewer11itemChangedERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi13ContactViewer11itemRemovedEv@Base 15.07.90
@@ -315,7 +316,6 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
  (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10rawContactEv@Base 15.07.90

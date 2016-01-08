@@ -6,6 +6,7 @@ kdepimlibs (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release 
+  * Refresh symbol files 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 28 Oct 2015 09:50:41 -0700
 
