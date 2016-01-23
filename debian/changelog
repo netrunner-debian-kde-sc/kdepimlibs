@@ -1,3 +1,9 @@
+kdepimlibs (4:15.12.1-0) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.1).
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 23 Jan 2016 11:57:30 +0100
+
 kdepimlibs (4:15.08.3-1) experimental; urgency=medium
 
   * New upstream release (15.08.3).
