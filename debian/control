@@ -150,6 +150,7 @@ Multi-Arch: same
 Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Replaces: libakonadi-contact4
 Description: Akonadi contacts access library
  This library provides contacts manipulation helpers using the
  Akonadi PIM data server.
@@ -180,6 +181,7 @@ Multi-Arch: same
 Depends: kdepimlibs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Replaces: libakonadi-kmime4
 Description: Akonadi MIME handling library
  This library provides MIME handling helpers using the
  Akonadi PIM data server.
@@ -203,6 +205,7 @@ Description: Akonadi MIME handling library
 
 Package: libakonadi-kf5
 Depends: kdepimlibs-data, ${misc:Depends}
+Replaces: libakonadi-kde4
 Architecture: all
 Priority: extra
 Section: oldlibs
