@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5AkonadiNotes.so.5 libkf5akonadinotes5 #MINVER#
  _ZN7Akonadi9NoteUtils10Attachment8setLabelERK7QString@Base 15.07.90
  _ZN7Akonadi9NoteUtils10AttachmentC1ERK10QByteArrayRK7QString@Base 15.07.90
@@ -18,17 +18,14 @@ libKF5AkonadiNotes.so.5 libkf5akonadinotes5 #MINVER#
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper15setCreationDateERK9QDateTime@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper17setClassificationENS1_14ClassificationE@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper19setLastModifiedDateERK9QDateTime@Base 15.07.90
- _ZN7Akonadi9NoteUtils18NoteMessageWrapper25NoteMessageWrapperPrivate15parseCustomPartEPN5KMime7ContentE@Base 15.07.90
- _ZN7Akonadi9NoteUtils18NoteMessageWrapper25NoteMessageWrapperPrivate15readMimeMessageERKN5boost10shared_ptrIN5KMime7MessageEEE@Base 15.07.90
- _ZN7Akonadi9NoteUtils18NoteMessageWrapper25NoteMessageWrapperPrivate19parseAttachmentPartEPN5KMime7ContentE@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper6customEv@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper6setUidERK7QString@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper7setFromERK7QString@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper7setTextERK7QStringN2Qt10TextFormatE@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapper8setTitleERK7QString@Base 15.07.90
- _ZN7Akonadi9NoteUtils18NoteMessageWrapperC1ERKN5boost10shared_ptrIN5KMime7MessageEEE@Base 15.07.90
+ _ZN7Akonadi9NoteUtils18NoteMessageWrapperC1ERK14QSharedPointerIN5KMime7MessageEE@Base 4:15.12.0
  _ZN7Akonadi9NoteUtils18NoteMessageWrapperC1Ev@Base 15.07.90
- _ZN7Akonadi9NoteUtils18NoteMessageWrapperC2ERKN5boost10shared_ptrIN5KMime7MessageEEE@Base 15.07.90
+ _ZN7Akonadi9NoteUtils18NoteMessageWrapperC2ERK14QSharedPointerIN5KMime7MessageEE@Base 4:15.12.0
  _ZN7Akonadi9NoteUtils18NoteMessageWrapperC2Ev@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapperD1Ev@Base 15.07.90
  _ZN7Akonadi9NoteUtils18NoteMessageWrapperD2Ev@Base 15.07.90
@@ -42,8 +39,6 @@ libKF5AkonadiNotes.so.5 libkf5akonadinotes5 #MINVER#
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper12creationDateEv@Base 15.07.90
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper14classificationEv@Base 15.07.90
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper16lastModifiedDateEv@Base 15.07.90
- _ZNK7Akonadi9NoteUtils18NoteMessageWrapper25NoteMessageWrapperPrivate16createCustomPartEv@Base 15.07.90
- _ZNK7Akonadi9NoteUtils18NoteMessageWrapper25NoteMessageWrapperPrivate20createAttachmentPartERKNS0_10AttachmentE@Base 15.07.90
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper3uidEv@Base 15.07.90
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper4fromEv@Base 15.07.90
  _ZNK7Akonadi9NoteUtils18NoteMessageWrapper4textEv@Base 15.07.90

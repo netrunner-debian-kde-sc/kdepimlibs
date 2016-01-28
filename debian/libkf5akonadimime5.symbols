@@ -1,8 +1,25 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
+ _ZN7Akonadi11CommandBase10emitResultENS0_6ResultE@Base 4:15.12.0
+ _ZN7Akonadi11CommandBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ _ZN7Akonadi11CommandBase11qt_metacastEPKc@Base 4:15.12.0
+ _ZN7Akonadi11CommandBase16staticMetaObjectE@Base 4:15.12.0
+ _ZN7Akonadi11CommandBase6resultENS0_6ResultE@Base 4:15.12.0
+ _ZN7Akonadi11CommandBaseC1EP7QObject@Base 4:15.12.0
+ _ZN7Akonadi11CommandBaseC2EP7QObject@Base 4:15.12.0
  _ZN7Akonadi11MessagePart4BodyE@Base 15.07.90
  _ZN7Akonadi11MessagePart6HeaderE@Base 15.07.90
  _ZN7Akonadi11MessagePart8EnvelopeE@Base 15.07.90
+ _ZN7Akonadi11MoveCommand11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommand11qt_metacastEPKc@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommand14slotMoveResultEP4KJob@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommand16staticMetaObjectE@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommand7executeEv@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommandC1ERKNS_10CollectionERK7QVectorINS_4ItemEEP7QObject@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommandC2ERKNS_10CollectionERK7QVectorINS_4ItemEEP7QObject@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommandD0Ev@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommandD1Ev@Base 4:15.12.0
+ _ZN7Akonadi11MoveCommandD2Ev@Base 4:15.12.0
  _ZN7Akonadi12MessageFlags13HasAttachmentE@Base 15.07.90
  _ZN7Akonadi12MessageFlags13HasInvitationE@Base 15.07.90
  _ZN7Akonadi12MessageFlags16copyMessageFlagsERN5KMime7MessageERNS_4ItemE@Base 15.07.90
@@ -30,6 +47,20 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZN7Akonadi12MessageModelD0Ev@Base 15.07.90
  _ZN7Akonadi12MessageModelD1Ev@Base 15.07.90
  _ZN7Akonadi12MessageModelD2Ev@Base 15.07.90
+ _ZN7Akonadi13MarkAsCommand11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand11qt_metacastEPKc@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand12markMessagesEv@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand13slotFetchDoneEP4KJob@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand16staticMetaObjectE@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand18slotModifyItemDoneEP4KJob@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommand7executeEv@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandC1ERKNS_13MessageStatusERK7QVectorINS_10CollectionEEbP7QObject@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandC1ERKNS_13MessageStatusERK7QVectorINS_4ItemEEbP7QObject@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandC2ERKNS_13MessageStatusERK7QVectorINS_10CollectionEEbP7QObject@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandC2ERKNS_13MessageStatusERK7QVectorINS_4ItemEEbP7QObject@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandD0Ev@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandD1Ev@Base 4:15.12.0
+ _ZN7Akonadi13MarkAsCommandD2Ev@Base 4:15.12.0
  _ZN7Akonadi13MessageStatus10fromQInt32Ei@Base 15.07.90
  _ZN7Akonadi13MessageStatus10setDeletedEb@Base 15.07.90
  _ZN7Akonadi13MessageStatus10setIgnoredEb@Base 15.07.90
@@ -73,7 +104,6 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZN7Akonadi13MessageStatus9statusHamEv@Base 15.07.90
  _ZN7Akonadi13MessageStatusC1Ev@Base 15.07.90
  _ZN7Akonadi13MessageStatusC2Ev@Base 15.07.90
- _ZN7Akonadi13MessageStatusaSERKS0_@Base 15.07.90
  _ZN7Akonadi16AddressAttribute11deserializeERK10QByteArray@Base 15.07.90
  _ZN7Akonadi16AddressAttribute5setCcERK11QStringList@Base 15.07.90
  _ZN7Akonadi16AddressAttribute5setToERK11QStringList@Base 15.07.90
@@ -152,12 +182,15 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobC1EP7QObject@Base 15.07.90
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobC2EP7QObject@Base 15.07.90
+ _ZNK7Akonadi11CommandBase10metaObjectEv@Base 4:15.12.0
+ _ZNK7Akonadi11MoveCommand10metaObjectEv@Base 4:15.12.0
  _ZNK7Akonadi12MessageModel10headerDataEiN2Qt11OrientationEi@Base 15.07.90
  _ZNK7Akonadi12MessageModel10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi12MessageModel11columnCountERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi12MessageModel4dataERK11QModelIndexi@Base 15.07.90
  _ZNK7Akonadi12MessageModel8rowCountERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi12MessageModel9mimeTypesEv@Base 15.07.90
+ _ZNK7Akonadi13MarkAsCommand10metaObjectEv@Base 4:15.12.0
  _ZNK7Akonadi13MessageStatus11isEncryptedEv@Base 15.07.90
  _ZNK7Akonadi13MessageStatus11isForwardedEv@Base 15.07.90
  _ZNK7Akonadi13MessageStatus11isImportantEv@Base 15.07.90
@@ -207,11 +240,14 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZNK7Akonadi25StandardMailActionManager6actionENS_21StandardActionManager4TypeE@Base 15.07.90
  _ZNK7Akonadi32SpecialMailCollectionsRequestJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi34SpecialMailCollectionsDiscoveryJob10metaObjectEv@Base 15.07.90
- (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEbv@Base 15.07.90
- (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 15.07.90
- (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplIN5boost10shared_ptrIN5KMime7MessageEEE14QSharedPointerIS5_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSB_PKi@Base 15.07.90
- (optional=templinst)_ZNK7Akonadi4Item7payloadIN5boost10shared_ptrIN5KMime7MessageEEEEET_v@Base 15.07.90
+ (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN5KMime7MessageEEEEbv@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN5KMime7MessageEEEET_v@Base 4:15.12.0
+ _ZTIN7Akonadi11CommandBaseE@Base 4:15.12.0
+ _ZTIN7Akonadi11MoveCommandE@Base 4:15.12.0
  _ZTIN7Akonadi12MessageModelE@Base 15.07.90
+ _ZTIN7Akonadi13MarkAsCommandE@Base 4:15.12.0
  _ZTIN7Akonadi16AddressAttributeE@Base 15.07.90
  _ZTIN7Akonadi19RemoveDuplicatesJobE@Base 15.07.90
  _ZTIN7Akonadi22MessageFolderAttributeE@Base 15.07.90
@@ -219,7 +255,10 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZTIN7Akonadi25StandardMailActionManagerE@Base 15.07.90
  _ZTIN7Akonadi32SpecialMailCollectionsRequestJobE@Base 15.07.90
  _ZTIN7Akonadi34SpecialMailCollectionsDiscoveryJobE@Base 15.07.90
+ _ZTSN7Akonadi11CommandBaseE@Base 4:15.12.0
+ _ZTSN7Akonadi11MoveCommandE@Base 4:15.12.0
  _ZTSN7Akonadi12MessageModelE@Base 15.07.90
+ _ZTSN7Akonadi13MarkAsCommandE@Base 4:15.12.0
  _ZTSN7Akonadi16AddressAttributeE@Base 15.07.90
  _ZTSN7Akonadi19RemoveDuplicatesJobE@Base 15.07.90
  _ZTSN7Akonadi22MessageFolderAttributeE@Base 15.07.90
@@ -227,7 +266,10 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZTSN7Akonadi25StandardMailActionManagerE@Base 15.07.90
  _ZTSN7Akonadi32SpecialMailCollectionsRequestJobE@Base 15.07.90
  _ZTSN7Akonadi34SpecialMailCollectionsDiscoveryJobE@Base 15.07.90
+ _ZTVN7Akonadi11CommandBaseE@Base 4:15.12.0
+ _ZTVN7Akonadi11MoveCommandE@Base 4:15.12.0
  _ZTVN7Akonadi12MessageModelE@Base 15.07.90
+ _ZTVN7Akonadi13MarkAsCommandE@Base 4:15.12.0
  _ZTVN7Akonadi16AddressAttributeE@Base 15.07.90
  _ZTVN7Akonadi19RemoveDuplicatesJobE@Base 15.07.90
  _ZTVN7Akonadi22MessageFolderAttributeE@Base 15.07.90
@@ -235,4 +277,3 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZTVN7Akonadi25StandardMailActionManagerE@Base 15.07.90
  _ZTVN7Akonadi32SpecialMailCollectionsRequestJobE@Base 15.07.90
  _ZTVN7Akonadi34SpecialMailCollectionsDiscoveryJobE@Base 15.07.90
- _ZZZN7Akonadi25StandardMailActionManager7PrivateC4EP17KActionCollectionP7QWidgetPS0_ENKUlvE_clEvE15qstring_literal@Base 15.07.90
