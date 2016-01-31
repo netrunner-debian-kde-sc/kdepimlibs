@@ -278,14 +278,3 @@ Description: Akonadi XML helper library
  This library provides XML helpers using the Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
-
-Package: kdepimlibs-dbg
-Section: debug
-Architecture: any
-Multi-Arch: same
-Priority: extra
-Depends: ${allLibraries}, ${misc:Depends}
-Recommends: kdepimlibs-kio-plugins (= ${binary:Version})
-Description: debugging symbols for the KDE Development Platform PIM libraries
- This package contains debugging files used to investigate problems with
- binaries included in the KDE Development Platform PIM libraries module.
