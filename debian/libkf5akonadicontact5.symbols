@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocols4selfEv@Base 15.07.90
  _ZN11IMProtocols5mSelfE@Base 15.07.90
@@ -6,9 +6,9 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocolsC2Ev@Base 15.07.90
  _ZN11IMProtocolsD1Ev@Base 15.07.90
  _ZN11IMProtocolsD2Ev@Base 15.07.90
- (arch=!armhf)_ZN11KIconEngineD0Ev@Base 4:15.07.90
- (arch=!armhf)_ZN11KIconEngineD1Ev@Base 4:15.07.90
- (arch=!armhf)_ZN11KIconEngineD2Ev@Base 4:15.07.90
+ (arch=!armel !armhf)_ZN11KIconEngineD0Ev@Base 4:15.07.90
+ (arch=!armel !armhf)_ZN11KIconEngineD1Ev@Base 4:15.07.90
+ (arch=!armel !armhf)_ZN11KIconEngineD2Ev@Base 4:15.07.90
  _ZN7Akonadi11ContactPart6LookupE@Base 15.07.90
  _ZN7Akonadi11ContactPart8StandardE@Base 15.07.90
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 15.07.90
@@ -159,17 +159,17 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi21ContactGroupSearchJobD0Ev@Base 15.07.90
  _ZN7Akonadi21ContactGroupSearchJobD1Ev@Base 15.07.90
  _ZN7Akonadi21ContactGroupSearchJobD2Ev@Base 15.07.90
- _ZN7Akonadi21EmailAddressRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequester11qt_metacastEPKc@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequester11textChangedEv@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequester16staticMetaObjectE@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequester5clearEv@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequester7setTextERK7QString@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequesterC1EP7QWidget@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequesterC2EP7QWidget@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequesterD0Ev@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequesterD1Ev@Base 4:15.08.1+git20151003.0143+15.10
- _ZN7Akonadi21EmailAddressRequesterD2Ev@Base 4:15.08.1+git20151003.0143+15.10
+ _ZN7Akonadi21EmailAddressRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequester11qt_metacastEPKc@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequester11textChangedEv@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequester16staticMetaObjectE@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequester5clearEv@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequester7setTextERK7QString@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequesterC1EP7QWidget@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequesterC2EP7QWidget@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequesterD0Ev@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequesterD1Ev@Base 4:15.12.0
+ _ZN7Akonadi21EmailAddressRequesterD2Ev@Base 4:15.12.0
  _ZN7Akonadi21EmailAddressSelectionC1ERKS0_@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionC1Ev@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionC2ERKS0_@Base 15.07.90
@@ -177,14 +177,14 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi21EmailAddressSelectionD1Ev@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionD2Ev@Base 15.07.90
  _ZN7Akonadi21EmailAddressSelectionaSERKS0_@Base 15.07.90
- _ZN7Akonadi23SelectAddressBookDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialog11qt_metacastEPKc@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialog16staticMetaObjectE@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialogC1EP7QWidget@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialogC2EP7QWidget@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialogD0Ev@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialogD1Ev@Base 4:15.08.2+git20151028.1653+15.10
- _ZN7Akonadi23SelectAddressBookDialogD2Ev@Base 4:15.08.2+git20151028.1653+15.10
+ _ZN7Akonadi23SelectAddressBookDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialog11qt_metacastEPKc@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialog16staticMetaObjectE@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialogC1EP7QWidget@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialogC2EP7QWidget@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialogD0Ev@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialogD1Ev@Base 4:15.12.0
+ _ZN7Akonadi23SelectAddressBookDialogD2Ev@Base 4:15.12.0
  _ZN7Akonadi24AbstractContactFormatter10setContactERKN9KContacts9AddresseeE@Base 15.07.90
  _ZN7Akonadi24AbstractContactFormatter26setCustomFieldDescriptionsERK7QVectorI4QMapI7QString8QVariantEE@Base 15.07.90
  _ZN7Akonadi24AbstractContactFormatter7setItemERKNS_4ItemE@Base 15.07.90
@@ -314,7 +314,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK11IMProtocols4iconERK7QString@Base 15.07.90
  _ZNK11IMProtocols4nameERK7QString@Base 15.07.90
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
- (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
+ (optional=templinst|arch=!armhf !mips64el !mipsel)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
@@ -341,15 +341,15 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK7Akonadi21ContactGroupExpandJob8contactsEv@Base 15.07.90
  _ZNK7Akonadi21ContactGroupSearchJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21ContactGroupSearchJob13contactGroupsEv@Base 15.07.90
- _ZNK7Akonadi21EmailAddressRequester10metaObjectEv@Base 4:15.08.1+git20151003.0143+15.10
- _ZNK7Akonadi21EmailAddressRequester4textEv@Base 4:15.08.1+git20151003.0143+15.10
- _ZNK7Akonadi21EmailAddressRequester8lineEditEv@Base 4:15.08.1+git20151003.0143+15.10
+ _ZNK7Akonadi21EmailAddressRequester10metaObjectEv@Base 4:15.12.0
+ _ZNK7Akonadi21EmailAddressRequester4textEv@Base 4:15.12.0
+ _ZNK7Akonadi21EmailAddressRequester8lineEditEv@Base 4:15.12.0
  _ZNK7Akonadi21EmailAddressSelection11quotedEmailEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection4itemEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection4nameEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection5emailEv@Base 15.07.90
  _ZNK7Akonadi21EmailAddressSelection7isValidEv@Base 15.07.90
- _ZNK7Akonadi23SelectAddressBookDialog10metaObjectEv@Base 4:15.08.2+git20151028.1653+15.10
+ _ZNK7Akonadi23SelectAddressBookDialog10metaObjectEv@Base 4:15.12.0
  _ZNK7Akonadi24AbstractContactFormatter23customFieldDescriptionsEv@Base 15.07.90
  _ZNK7Akonadi24AbstractContactFormatter4itemEv@Base 15.07.90
  _ZNK7Akonadi24AbstractContactFormatter7contactEv@Base 15.07.90
@@ -397,7 +397,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN9KContacts12ContactGroupEEET_v@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN9KContacts9AddresseeEEET_v@Base 15.07.90
- (arch=!armhf)_ZTI11KIconEngine@Base 4:15.07.90
+ (arch=!armel !armhf)_ZTI11KIconEngine@Base 4:15.07.90
  _ZTIN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTIN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTIN7Akonadi16ContactSearchJobE@Base 15.07.90
@@ -409,8 +409,8 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTIN7Akonadi21ContactDefaultActionsE@Base 15.07.90
  _ZTIN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTIN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
- _ZTIN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
- _ZTIN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
+ _ZTIN7Akonadi21EmailAddressRequesterE@Base 4:15.12.0
+ _ZTIN7Akonadi23SelectAddressBookDialogE@Base 4:15.12.0
  _ZTIN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTIN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTIN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -424,7 +424,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTIN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTIN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
  _ZTIN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
- (arch=!armhf)_ZTS11KIconEngine@Base 4:15.07.90
+ (arch=!armel !armhf)_ZTS11KIconEngine@Base 4:15.07.90
  _ZTSN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTSN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTSN7Akonadi16ContactSearchJobE@Base 15.07.90
@@ -436,8 +436,8 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTSN7Akonadi21ContactDefaultActionsE@Base 15.07.90
  _ZTSN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTSN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
- _ZTSN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
- _ZTSN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
+ _ZTSN7Akonadi21EmailAddressRequesterE@Base 4:15.12.0
+ _ZTSN7Akonadi23SelectAddressBookDialogE@Base 4:15.12.0
  _ZTSN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTSN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTSN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -451,7 +451,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTSN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTSN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
  _ZTSN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
- (arch=!armhf)_ZTV11KIconEngine@Base 4:15.07.90
+ (arch=!armel !armhf)_ZTV11KIconEngine@Base 4:15.07.90
  _ZTVN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTVN7Akonadi13ContactViewerE@Base 15.07.90
  _ZTVN7Akonadi16ContactSearchJobE@Base 15.07.90
@@ -463,8 +463,8 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTVN7Akonadi21ContactDefaultActionsE@Base 15.07.90
  _ZTVN7Akonadi21ContactGroupExpandJobE@Base 15.07.90
  _ZTVN7Akonadi21ContactGroupSearchJobE@Base 15.07.90
- _ZTVN7Akonadi21EmailAddressRequesterE@Base 4:15.08.1+git20151003.0143+15.10
- _ZTVN7Akonadi23SelectAddressBookDialogE@Base 4:15.08.2+git20151028.1653+15.10
+ _ZTVN7Akonadi21EmailAddressRequesterE@Base 4:15.12.0
+ _ZTVN7Akonadi23SelectAddressBookDialogE@Base 4:15.12.0
  _ZTVN7Akonadi24AbstractContactFormatterE@Base 15.07.90
  _ZTVN7Akonadi24ContactGroupEditorDialogE@Base 15.07.90
  _ZTVN7Akonadi24ContactGroupViewerDialogE@Base 15.07.90
@@ -490,7 +490,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  (c++)"non-virtual thunk to Akonadi::ContactViewer::itemRemoved()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ContactViewer::~ContactViewer()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ContactViewerDialog::~ContactViewerDialog()@Base" 15.07.90
- (c++)"non-virtual thunk to Akonadi::EmailAddressRequester::~EmailAddressRequester()@Base" 4:15.08.1+git20151003.0143+15.10
+ (c++)"non-virtual thunk to Akonadi::EmailAddressRequester::~EmailAddressRequester()@Base" 4:15.12.0
  (c++)"non-virtual thunk to Akonadi::EmailAddressSelectionDialog::~EmailAddressSelectionDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::EmailAddressSelectionWidget::~EmailAddressSelectionWidget()@Base" 15.07.90
- (c++)"non-virtual thunk to Akonadi::SelectAddressBookDialog::~SelectAddressBookDialog()@Base" 4:15.08.2+git20151028.1653+15.10
+ (c++)"non-virtual thunk to Akonadi::SelectAddressBookDialog::~SelectAddressBookDialog()@Base" 4:15.12.0

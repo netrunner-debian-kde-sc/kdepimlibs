@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZN7Akonadi11CommandBase10emitResultENS0_6ResultE@Base 4:15.12.0
  _ZN7Akonadi11CommandBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
@@ -240,10 +240,10 @@ libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
  _ZNK7Akonadi25StandardMailActionManager6actionENS_21StandardActionManager4TypeE@Base 15.07.90
  _ZNK7Akonadi32SpecialMailCollectionsRequestJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi34SpecialMailCollectionsDiscoveryJob10metaObjectEv@Base 15.07.90
- (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN5KMime7MessageEEEEbv@Base 4:15.08.1
- (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.08.1
- (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.08.1
- (optional=templinst)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN5KMime7MessageEEEET_v@Base 4:15.08.1
+ (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN5KMime7MessageEEEEbv@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12.0
+ (optional=templinst)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN5KMime7MessageEEEET_v@Base 4:15.12.0
  _ZTIN7Akonadi11CommandBaseE@Base 4:15.12.0
  _ZTIN7Akonadi11MoveCommandE@Base 4:15.12.0
  _ZTIN7Akonadi12MessageModelE@Base 15.07.90
