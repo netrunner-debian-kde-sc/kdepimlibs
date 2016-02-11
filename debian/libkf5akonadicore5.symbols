@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1 amd64 i386
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -2164,7 +2164,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi4ItemeqERKS0_@Base 4:15.12.0
  _ZNK7Akonadi4ItemltERKS0_@Base 4:15.12.0
  _ZNK7Akonadi4ItemneERKS0_@Base 4:15.12.0
- (optional=templinst|arch=!amd64 !kfreebsd-amd64 !mips64el)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 15.07.90
  _ZNK7Akonadi7Control10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi7LinkJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi7Monitor10metaObjectEv@Base 15.07.90
