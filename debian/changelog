@@ -1,8 +1,7 @@
-kdepimlibs (4:15.12.1-1ubuntu1.1) UNRELEASED; urgency=medium
+kdepimlibs (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes.
   * Refresh symbols. 
-  * Minor bump, source package is refusing to be uploaded? 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 06:23:34 -0800
 
